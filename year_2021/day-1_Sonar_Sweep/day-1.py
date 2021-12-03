@@ -1,4 +1,4 @@
-from ac_get_input_data import get_input_data
+from get_data import get_input_data
 
 input_data = get_input_data(day=1)
 input_soundings = [int(s) for s in input_data.strip().split()]

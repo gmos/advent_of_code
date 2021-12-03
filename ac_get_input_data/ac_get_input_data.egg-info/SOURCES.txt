@@ -1,5 +1,0 @@
-setup.py
-ac_get_input_data.egg-info/PKG-INFO
-ac_get_input_data.egg-info/SOURCES.txt
-ac_get_input_data.egg-info/dependency_links.txt
-ac_get_input_data.egg-info/top_level.txt
