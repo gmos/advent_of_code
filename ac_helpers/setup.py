@@ -7,5 +7,5 @@ setup(
     author_email="gijs.mos@matanga.nl",
     description="Wee tools for Advent of Code",
     packages=[],
-    install_requires=['advent-of-code-data'],
+    install_requires=["advent-of-code-data"],
 )
