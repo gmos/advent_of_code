@@ -1,4 +1,4 @@
-def run(input_data, day):
+def run(input_data, day, name):
 
-    print(f"== Results for day {day}, part 1.")
+    print(f"== Results for day {day} - {name}, part 1.")
     print(" ** TBD **")
