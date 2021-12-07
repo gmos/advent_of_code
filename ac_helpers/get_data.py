@@ -1,15 +1,20 @@
 from aocd.models import Puzzle
-import json
+import sys
+import pathlib
+
+print(sys.argv)
 
 
 def get_input_data(day):
+    fn = pathlib.Path(sys.argv[0]).parent.parent.joinpath('input_data', f"day-{day}.txt")
+
     try:
-        with open(f"day-{day}.txt") as f:
+        with open(fn) as f:
             return f.read()
     except FileNotFoundError:
         pass
 
     data = Puzzle(year=2021, day=day).input_data
-    with open(f"day-{day}.txt", "w") as f:
+    with open(fn, "w") as f:
         f.write(data)
     return data
