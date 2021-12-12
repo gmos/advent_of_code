@@ -3,7 +3,7 @@ def run(input_data):
     movements = [
         (mov_type, int(mov_value))
         for (mov_type, mov_value) in (
-            tuple(line.split()) for line in input_data.strip().split("\n")
+            tuple(line.split(' ')) for line in input_data.strip().split("\n")
         )
     ]
     position = sum(

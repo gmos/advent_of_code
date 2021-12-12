@@ -1,7 +1,7 @@
 from get_data import get_input_data
 
 input_data = get_input_data(day=1)
-input_soundings = [int(s) for s in input_data.strip().split()]
+input_soundings = [int(s) for s in input_data.strip().split('\n')]
 
 # Part 1
 soundings = (s for s in input_soundings)
