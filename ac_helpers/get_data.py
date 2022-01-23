@@ -2,9 +2,6 @@ from aocd.models import Puzzle
 import sys
 import pathlib
 
-print(sys.argv)
-
-
 def get_input_data(day):
     fn = pathlib.Path(sys.argv[0]).parent.parent.joinpath('input_data', f"day-{day}.txt")
 
